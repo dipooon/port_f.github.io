@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+
+<video autoplay muted loop playsinline id="bg-video">
+  <source src="zoro.mp4" type="video/mp4">
+  Your browser does not support HTML5 video.
+</video>
+
+<nav>
+  <div class="nav-left">
+    <a href="index.html" class="active">Home</a>
+  </div>
+  <div class="nav-right">
+    <a href="index.html#services">Services</a>
+    <a href="resume.html">Resume</a>
+    <a href="work.html">Work</a>
+    <a href="contact.html">Contact</a>
+  </div>
+</nav>
+
+        <h1>Let's Connect</h1>
+    <p class="intro-text">
+        Have a project in mind or want to discuss a potential collaboration?<br>
+        I'm just a message away. Let's create something amazing together!
+    </p>
+
+    <div class="connect-container">
+        <div class="left-column">
+            <h2>Let's work together</h2>
+            <p>Fill out the form below and I'll get back to you as soon as possible.</p>
+
+            <div class="form-group">
+                <div class="form-row">
+                    <div class="form-field">
+                        <input type="text" placeholder="First name">
+                    </div>
+                    <div class="form-field">
+                        <input type="text" placeholder="Last name">
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-field">
+                        <input type="email" placeholder="Email address">
+                    </div>
+                    <div class="form-field">
+                        <input type="tel" placeholder="Phone number">
+                    </div>
+                </div>
+
+                <div class="form-field">
+                    <select>
+                        <option value="" disabled selected>Select a service</option>
+                        <option value="web-dev">Web Development</option>
+                        <option value="app-dev">App Development</option>
+                        <option value="ui-ux">UI/UX Design</option>
+                        <option value="other">Other</option>
+                    </select>
+                    <div class="select-arrow">
+                        <i class="fas fa-angle-down"></i>
+                    </div>
+                </div>
+
+                <div class="form-field">
+                    <select>
+                        <option value="" disabled selected>Select a budget range</option>
+                        <option value="less than 500">Less than $500</option>
+                        <option value="500-1000">$500-$1000</option>
+                        <option value="1000-5000">$1000-$5000</option>
+                        <option value="5000+">$5000+</option>
+                    </select>
+                    <div class="select-arrow">
+                        <i class="fas fa-angle-down"></i>
+                    </div>
+                </div>
+
+                <div class="form-field">
+                    <textarea placeholder="Your message"></textarea>
+                </div>
+
+                <div style="position: relative; display: inline-block;">
+                    <button class="submit-btn" id="sendMessageBtn">
+                        <i class="fas fa-paper-plane"></i>
+                        Send message
+                    </button>
+                    <div class="confirmation" id="confirmation">
+                        <i class="fas fa-check-circle"></i>
+                        Message sent!
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="right-column">
+            <h3>Contact Information</h3>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <span class="contact-label">Phone</span>
+                    <span>01650254164</span>
+                </div>
+                <div class="contact-item">
+                    <span class="contact-label">Email</span>
+                    <span>dipon4164@gmail.com</span>
+                </div>
+                <div class="contact-item">
+                    <span class="contact-label">Location</span>
+                    <span>Available for remote work and local projects</span>
+                </div>
+            </div>
+
+                        <h3>Connect with me</h3>
+            <div class="social-icons">
+                <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="whatsapp"><i class="fab fa-whatsapp"></i></a>
+                <a href="#" class="linkedin"><i class="fab fa-linkedin"></i></a>
+                <a href="#" class="github"><i class="fab fa-github"></i></a>
+               
+            </div>
+
+            <h3>Working Hours</h3>
+            <table>
+                <tr>
+                    <td>Monday - Friday</td>
+                    <td>9:00 AM - 6:00 PM</td>
+                </tr>
+                <tr>
+                    <td>Saturday</td>
+                    <td>10:00 AM - 4:00 PM</td>
+                </tr>
+            </table>
+            <div class="contact-item">
+                <span class="contact-label">Sunday</span>
+                <span>Closed</span>
+            </div>
+            <p class="note">Available for urgent client support outside of these hours</p>
+        </div>
+    </div>
+
+</body>
+</html>

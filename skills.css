@@ -1,0 +1,313 @@
+p{
+  color: #ffffff;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  background: #1e293b85;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.nav-left a{
+    font-size: x-large;
+    text-decoration: none;
+    padding-left: 15vh;
+}
+.nav-right a {
+  color: #cbd5e1;
+  text-decoration: none;
+  font-size: 18px;
+  margin-right: 20px;
+  transition: color 0.3s;
+}
+
+.nav-right {
+  display: flex;
+  gap: 25px;
+}
+
+nav a:hover,
+nav a.active {
+  color: #10b981;
+}
+nav a.active:hover {
+color: #ffffff;
+
+}
+.video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    overflow: hidden;
+}
+
+#bg-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+}
+
+.video-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Dark overlay for better text readability */
+    z-index: 0;
+}
+/* Technical Skills Section */
+.technical-skills {
+  padding: 15vh;
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.technical-skills h2 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 4vh;
+  color: #ffffff;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 8px;
+}
+
+.skills-columns {
+  display: flex;
+  gap: 4px;
+}
+
+.skills-column {
+  flex: 1;
+}
+
+.skills-group h3 {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 12px;
+  color: #ffffff;
+}
+
+.skills-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 15px 0;
+}
+
+.skills-list li {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  margin-bottom: 6px;
+}
+
+.skills-list li i {
+  width: 24px;
+  margin-right: 10px;
+  color: #ffffff;
+  font-size: 18px;
+}
+
+/* Specific icon colors */
+.fa-html5 {   background-color: #e33f66;
+  color: white;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 16px;
+  text-decoration: none;
+  transition: transform 0.3s;
+  color: white; /* default fallback color */}
+.fa-css3-alt {  background-color: #1572b6; 
+  color: white;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 16px;
+  text-decoration: none;
+  transition: transform 0.3s;
+  color: white; /* default fallback color */ }
+.fa-js-square {  background-color: #f7e85f; 
+  color: white;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 16px;
+  text-decoration: none;
+  transition: transform 0.3s;
+  color: white; /* default fallback color */ }
+.fa-react {  background-color: #6179ff; 
+  color: white;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 16px;
+  text-decoration: none;
+  transition: transform 0.3s;
+  color: white; /* default fallback color */ }
+.fa-node-js {  background-color: #20dfb5;
+  color: white;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 16px;
+  text-decoration: none;
+  transition: transform 0.3s;
+  color: white; /* default fallback color */ }
+.fa-docker {  background-color: #247ebe; 
+  color: white;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 16px;
+  text-decoration: none;
+  transition: transform 0.3s;
+  color: white; /* default fallback color */ }
+
+.fa-figma {  background-color: #872a2a; 
+  color: #4caf50;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 16px;
+  text-decoration: none;
+  transition: transform 0.3s;
+  color: white; /* default fallback color */ }
+
+  .fa-brands 
+    {  background-color:#13AA52; 
+  color:#ffffff;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 16px;
+  text-decoration: none;
+  transition: transform 0.3s;
+  color: white;
+  }
+
+/* Keep the exact spacing from the screenshot */
+.skills-list + .skills-list {
+  margin-top: -8px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .skills-columns {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+ footer {
+  width: 100%;
+  background: #000000c4;
+  color: #ffffff;
+  padding: 20px 20px;
+  box-sizing: border-box;
+  font-size: 14px;
+  margin-top: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+  text-decoration: none;
+  box-sizing: border-box; /* ensures padding doesn’t shrink width */
+}
+
+
+    .footer-section {
+      width: 100%;
+      flex: 1;
+      min-width: 100px;
+      
+    }
+
+    .footer-title {
+      font-weight: bold;
+      color: #fff;
+      margin-bottom: 12px;
+    }
+
+    .footer-links a {
+      display: block;
+      margin-bottom: 6px;
+      color: #94a3b8;
+    }
+
+.copyright {
+    width: 100%;
+    margin-top: 30px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 0.9rem;
+}
+
+.legal-links {
+    margin-top: 10px;
+}
+
+.legal-links a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 0.9rem;
+}
+
+.legal-links a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .experience-item {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    footer {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
