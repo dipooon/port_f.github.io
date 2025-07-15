@@ -5,9 +5,7 @@ This site showcases my work, skills, projects, and contact information. It's bui
 
 ## 🌐 Live Demo
 
-👉 [View Live Site](https://[your-username.github.io/your-repo-name](https://github.com/dipooon/port_f.github.io/new/main/)
-
-## 🧰 Technologies Used
+👉 https://github.com/dipooon/port_f.github.io
 
 - HTML5
 - CSS3
